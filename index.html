@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!-- Instrução que defini o HTML do tipo 5 (mais atual)-->
+<html lang="pt-br"> <!--Tag HTML 1° atributo de liguagem (pai)-->
+ 
+ <head> <!--Tag filho (cabeçalho)= Elementos HTML = Contem instruções da propria pagina-->
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--tag de link de referencia a algum css externo -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--tag rel = relação-->
+  <meta charset="UTF-8"><!--charset = Conjuto de Caracteres (aceitam caracteres especiais)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--viewport tudo que encherga na tela + conteudo sobre a largura da pagina-->
+  <title>Móveis Customizados</title><!--Tag do título-->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!--link de conexão com o arquivo de CSS-->
+
+ </head>
+
+ <body> <!--Corpo, o que tem de fato na pagina para o cliente-->
+
+    <div id="hero"> <!--Container\Elemento "caixa para agrupar as coisas"-->
+      <img 
+          src="images/img1.jpg" 
+          alt="Desenho de uma pessoa vestindo uma camisa amarela"/>
+      
+      <h1>Ambientes <span>únicos</span> para você!</h1> <!--tag span mantem o elemento em inline-->
+      <p>
+        Nós criamos ambientes <strong>exclusívos</strong> e 
+        <strong>únicos</strong>, <!--tag strong palavra forte (negrito)-->
+        com muito bom gosto e profissionalismo, investimos tempo e <span>dedicação no seu projeto</span>.
+        <br/> <!--quebra de linha no HTML-->
+        <br/>
+        Tenha <span>ambientes limpos</span> e bem decorados, transmitindo 
+        <strong>elegância</strong> e <strong>finesse</strong> para todo aquele que estiver ali.
+      </p>
+    
+    </div>
+
+    <div id="footer">
+      <div id="line"></div>
+      <a target="_blank" href="https://instagram.com/moveisparavoce"> <!--href informa o link de acesso-->
+        Instagram
+      </a>
+      <!--&nbsp; codigo interno que considera espaço no HTML-->
+      <a href="mailton:contato@moveisparavoce.com">
+        Fale Conosco
+      </a>
+
+    </div>
+
+    <img 
+    id="balls"
+    src="images/balls.svg" 
+    alt="Bolinhas laranjadas no canto direito inferior da tela"/> <!--alt=informação alternativa da imagem-->
+
+</body>
+</html>
